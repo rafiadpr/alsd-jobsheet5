@@ -1,13 +1,13 @@
 public class Faktorial23 {
     public int nilai;
 
-    //Brute Force dengan while
+    //Brute Force dengan do-while
     int faktorialBF(int n) {
         int hasil = 1, i = 1;
-        while (i <= n) {
+        do {
             hasil *= i;
             i++;
-        }
+        } while (i <= n);
         return hasil;
     }
 
